@@ -258,10 +258,10 @@ _generateTurnsR() {
 
   _passedOrFailed() {
     if (this.finalPercentage < 10) {
-      this.passedFailed.innerHTML = "Congratulations!<br> Coordination test approved.";
+      this.passedFailed.innerHTML = "Well its about time!<br> Coordination test approved.";
       this.approvedLogo.style = "display: block;";
     } else {
-      this.passedFailed.innerHTML = "You will need better reflexes Clint jou poes!<br> Coordination test failed :(";
+      this.passedFailed.innerHTML = "You need to concentrate shitbag!<br> Coordination test failed :(";
       this.rejectedLogo.style = "display: block;";
     }
   }
