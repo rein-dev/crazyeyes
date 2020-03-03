@@ -1,0 +1,271 @@
+#container {
+  margin: 0 auto;
+  width: auto;
+}
+
+#body {
+	background-color: #121a21;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/* Start Screen */
+
+#startscreen {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.main-description {
+	font-size: 1.6rem;
+	color: white;
+}
+
+.coordinator-logo-top {
+	margin-top: 60px;
+	font-size: 5rem;
+	color: white;
+}
+
+.coordinator-logo-bottom {
+	color: #bdc3c7;
+	margin-top: -40px;
+	margin-left: 290px;
+	font-size: 6rem;
+}
+
+#logo-image {
+	margin-top: 40px;
+	width: 270px;
+	height: 290px;
+	transform: rotate(0.5turn);
+}
+
+.main-logo-container {
+	display: flex;
+	justify-content: center;
+}
+
+.separator-line {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	width: 50%; 
+	height: 1px; 
+	background: #fff
+}
+
+/* Canvas */
+
+#two-screens {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#coordinator-left {
+  margin: 0 auto;
+	border: 10px solid white; 
+	background-color: #1b2631;
+	position: relative;
+	border-radius: 5px;
+}
+
+#coordinator {
+  margin: 0 auto;
+	border: 10px solid white; 
+	background-color: #1b2631;
+	position: relative;
+	border-radius: 5px;
+}
+
+/* Start Button*/
+
+#start {
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background: #34495e;
+  width: 250px;
+  height: 80px;
+	border: 6px solid white;
+	border-radius: 4px;
+	box-shadow: 0 5px #95a5a6;
+	margin-top: 20px;
+}
+
+#start:hover {
+	box-shadow: 0 3px #95a5a6;
+	margin-top: 22px;
+	cursor: pointer;
+}
+
+#start:active {
+	box-shadow: 0 0px #95a5a6;
+	margin-top: 24px;
+}
+
+
+/* Play when Ready Button */
+
+#play {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.2rem;
+	font-weight: bold;
+	background: #121a21;
+	color: white;
+	position: absolute;
+	top: 70%;
+  right: 25%;
+  width: 250px;
+  height: 80px;
+	border: 6px solid white;
+	border-radius: 4px;
+	box-shadow: 0 5px gray;
+}
+
+#play:hover {
+	box-shadow: 0 3px gray;
+	top: 70.5%;
+	cursor: pointer;
+}
+
+#play:active {
+	box-shadow: 0 0px gray;
+	top: 72%;
+}
+
+/* Instructions */
+
+#instructions-together {
+	background-color: #30336b;
+	width: 500px;
+	height: 500px;
+	border: 6px solid white;
+	position: absolute;
+	right: 33%;
+	top: 10%;
+}
+
+.title-instructions {
+	font-size: 1.3rem;
+}
+
+#instructions {
+	font-size: 1.2rem;
+	text-align: center;
+	right: 10%;
+	width: 400px;
+	position: absolute;
+	top: 5%;
+	color: white;
+}
+
+#arrows {
+	position: absolute;
+	top: 31%;
+	width: 260px;
+	right: 25%;
+}
+
+#instructions-two {
+	font-size: 1.2rem;
+	text-align: center;
+	right: 10%;
+	width: 400px;
+	position: absolute;
+	top: 45%;
+	color: white;
+}
+
+.be-careful {
+	color: #e74c3c;
+}
+
+.percent-instructions {
+	color: #2ecc71;
+}
+
+#timer-counter {
+	position: absolute;
+	width: 100px;
+	top: 20px;
+	right: 46.5%;
+}
+
+/* Game Over Screen */
+
+#gameover {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+	font-size: 1.3rem;
+}
+
+#passed-failed {
+	margin-top: 80px;
+	font-size: 3rem;
+	color: #ced6e0;
+}
+
+#right-final-number {
+	font-size: 2.9rem;
+	font-weight: bold;
+	color: #121a21;
+	background-color: white;
+	margin: 0px 560px;
+	width: 180px;
+	-ms-transform: skew(-10deg, 0deg);
+	-webkit-transform: skew(-20deg, 0deg);
+    transform: skew(-15deg, 0deg);
+}
+
+.aproved-rejected-container {
+	display: flex;
+}
+
+.final-description {
+	margin-left: 2%;
+}
+
+#approved {
+	width: 400px;
+	position: absolute;
+	margin-left: 1%;
+	z-index: -1;
+}
+
+#rejected {
+	width: 450px;
+	position: absolute;
+	margin-left: 1%;
+	z-index: -1;
+}
+
+/* Try Again Button */
+
+#tryagain {
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background: #34495e;
+  width: 250px;
+  height: 80px;
+	border: 6px solid white;
+	border-radius: 4px;
+	box-shadow: 0 5px #95a5a6;
+	margin-top: 20px;
+}
+
+#tryagain:hover {
+	box-shadow: 0 3px #95a5a6;
+	margin-top: 22px;
+	cursor: pointer;
+}
+
+#tryagain:active {
+	box-shadow: 0 0px #95a5a6;
+	margin-top: 24px;
+}
